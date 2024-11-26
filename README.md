@@ -8,9 +8,9 @@ Different gene KOs or cell types may require different workflows or different pa
 
 1. "regular" methods - this includes traditional HILIC and RP LC-MS datasets without chemoselective derivatization or stable isotope labelling. This is the majority of the data in the atlas and the HMGCS2 processing is the reference implementation.
 
-2. derivatization methods - in this workflow, metabolites are first derivatized (covallently modified) to yield a permanently charged form of the metabolites. The derivatization is specific for certain functional groups, so the same sample derivatized using different reagents (e.g., DmPA vs. DnHZ) will allow for the detection of different sets of metabolites in the sample. 
+2. derivatization methods - in this workflow, metabolites are first derivatized (covallently modified) to yield a permanently charged form of the metabolites. The derivatization is specific for certain functional groups, so the same sample derivatized using different reagents (e.g., DmPA vs. DnHZ) will allow for the detection of different sets of metabolites in the sample. (SOON - this will be in V2, but final form still being decided - annotation is extra challenging here)
 
-3. isotope tracing - in these experiments, a tracer compound containing a stable isotope is enriched in the media (most commonly a 13C isotopologue of a common metabolite such as glucose or glutamine). How this data needs to be processed depends on the parameters of the labelling experiment (e.g., if 15N is enriched, we need to look for 15N isotopologues)
+3. isotope tracing - in these experiments, a tracer compound containing a stable isotope is enriched in the media (most commonly a 13C isotopologue of a common metabolite such as glucose or glutamine). How this data needs to be processed depends on the parameters of the labelling experiment (e.g., if 15N is enriched, we need to look for 15N isotopologues) (SOON - expect this in V3 release, experiment in progress now)
 
 Many experiments include MS2 data. Such data is handled in the same manner for all experiments during the annotation notebook(s).
 
